@@ -1,0 +1,21 @@
+{
+    "name": "isaackearl/simple-repository",
+    "description": "Simple implementation of the repository pattern for Laravel 5, based off of bican/repository",
+    "keywords": ["repository", "laravel", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Earl",
+            "email": "isaackearl@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Isaackearl\\SimpleRepository": "src/"
+        }
+    }
+}
